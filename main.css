@@ -1,0 +1,67 @@
+body{
+    margin: auto;
+    padding: 25px;
+    max-width: 960px;
+    background-image: url("../CSSCheckup/assets/pexels-hana-brannigan-3642718.jpg");
+    background-size: cover;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color:rgb(244, 244, 244);
+}
+
+.container {
+    margin: 25px;
+    padding: 25px;
+    border: 2px solid gray;
+    width: 100vh;
+    height: auto;
+    background-color:rgb(244, 244, 244, 0.85);
+    box-shadow:5px 5px 5px;
+}
+
+.banner {
+    font-family: 'Indie Flower';
+    display: flex;
+    justify-content: center;
+}
+
+#header {
+    font-size: 100px;
+}
+
+ul, li{
+    list-style: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.sides {
+    border: 2px solid gray;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 25px;
+    height: auto;
+}
+
+#sides {
+    display: flex;
+    justify-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#drinks {
+    display: flex;
+    justify-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.Under-headline{
+    display: flex;
+    justify-content: center;
+    font-family: 'Indie Flower';
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
